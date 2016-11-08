@@ -1,9 +1,9 @@
 customize:
     logo:
-        enabled: false
+        enabled: true
         width: 50
         height: 50
-        url: https://avatars1.githubusercontent.com/u/4161106?v=3&s=460
+        url: /images/logo.jpg
     favicon: /images/favicon.png # path to favicon
     social_links:
         github: http://github.com/johnnynotsolucky
