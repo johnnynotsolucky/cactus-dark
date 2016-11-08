@@ -4,19 +4,9 @@
       <% if (config.description) { %>
         <%- markdown(config.description) %>
       <% } %>
-      <p style="display: inline">
-      <% if (theme.customize.social_links.twitter) { %>
-        Find me on
-        <ul id="sociallinks">
-          <% for(var i in theme.customize.social_links) { %>
-            <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>" title="<%= i %>"><i class="fa fa-lg fa-<%= i %>"></i></a></li>
-          <% } %>
-        </ul>
-      <% } %>
-      </p>
     </section>
     <section id="writing">
-      <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
+      <span class="h1"><a href="<%- url_for("archives") %>">Posts</a></span>
       <ul class="post-list">
         <% site.posts.sort('date', 'desc').limit(5).each(function(post, i){ %>
           <li class="post-item">

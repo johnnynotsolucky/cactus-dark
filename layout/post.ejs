@@ -2,7 +2,8 @@
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <span class="top-subtitle">
-          <a href="<%- url_for("archives") %>">Writing</a>
+          <a href="<%- url_for("/") %>">Home</a>
+          <a href="<%- url_for("archives") %>">Archives</a>
       </span>
       <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
       <div class="meta">

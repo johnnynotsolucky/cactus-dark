@@ -1,17 +1,13 @@
-projects_url: http://github.com/probberechts
-
 customize:
     logo:
-        enabled: true
+        enabled: false
         width: 50
         height: 50
-        url: https://raw.githubusercontent.com/probberechts/cactus-dark/gh-pages/images/logo.png
+        url: https://avatars1.githubusercontent.com/u/4161106?v=3&s=460
     favicon: /images/favicon.png # path to favicon
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: http://github.com/johnnynotsolucky
+        twitter: https://twitter.com/tyronetudehope
 
 # RSS
 rss: false
