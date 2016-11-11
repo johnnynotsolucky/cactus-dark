@@ -1,13 +1,12 @@
 <section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>">Posts</a></span>
   <ul class="post-list">
-    <% site.posts.sort('date', 'desc').limit(5).each(function(post, i){ %>
+    <% site.posts.sort('date', 'desc').limit(theme.customize.post_count).each(function(post, i){ %>
       <li class="post-item">
           <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
           <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
       </li>
     <% }); %>
-    <% if (site.posts.length > 5) { %>
+    <% if (site.posts.length > theme.customize.post_count) { %>
         <li class="post-more"><a href="<%- url_for("archives") %>"><emph>more...</emph></a></li>
     <% } %>
   </ul>

@@ -8,6 +8,7 @@ customize:
     social_links:
         github: http://github.com/johnnynotsolucky
         twitter: https://twitter.com/tyronetudehope
+    post_count: 10
 
 # RSS
 rss: false
