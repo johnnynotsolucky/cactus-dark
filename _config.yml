@@ -15,8 +15,8 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: tyronetudehope # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    disqus_shortname: tyronetudehope
+    google_analytics: UA-35688631-1
 
 # Miscellaneous
 miscellaneous:
