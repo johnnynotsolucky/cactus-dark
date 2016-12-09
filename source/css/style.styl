@@ -153,9 +153,9 @@ body
 @import "_partial/footer"
 
 // Code
-pre,
+pre
   font-family: "Source Code Pro", Monaco, Menlo, Consolas, monospace
-  color: #4d4d4c
+  color: #7d7d7d
   font-size: 13px
 code
   -webkit-border-radius: 2px
@@ -176,15 +176,15 @@ pre code
   -webkit-border-radius: 4px
   border-radius: 4px
   padding: 10px 15px
-  color: #4d4d4c
+  color: #7d7d7d
   overflow: auto
-  margin: 0
+  margin: 20px 0
 .highlight figcaption
   zoom: 1
   margin: -5px 0 5px
   font-size: 0.9em
-  color: #999
-.highlight figcaption:before,
+  color: $color-text
+.highlight figcaption:before
   content: ""
   display: table
 .highlight figcaption:after
@@ -197,21 +197,21 @@ pre code
   background: none
 .highlight table
   width: auto
-pre .comment,
+pre .comment
   color: #8e908c
-pre .variable,
+pre .variable
   color: #c82829
-pre .number,
+pre .number
   color: #f5871f
-pre .class,
+pre .class
   color: #718c00
-pre .string,
+pre .string
   color: #718c00
 pre .css .hexcolor
   color: #3e999f
-pre .function,
+pre .function
   color: #4271ae
-pre .keyword,
+pre .keyword
   color: #8959a8
 .highlight
   .gutter
